@@ -28,7 +28,7 @@ document.getElementById('contato').addEventListener('submit', function(e) {
             'Accept': 'application/json'
         }
     }).then(response => {
-        window.location.href = 'https://leandrostanger.github.io/CarrosDivertidos/obrigado.html';
+        window.location.href = 'obrigado.html#obrigado';
     }).catch(error => {
         console.error('Erro:', error);
     });
